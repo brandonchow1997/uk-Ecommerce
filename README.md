@@ -39,19 +39,7 @@ data.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -168,19 +156,7 @@ data.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -282,19 +258,7 @@ data.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -365,19 +329,7 @@ data.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -431,19 +383,7 @@ data.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -534,19 +474,7 @@ customer['Category'].value_counts()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -657,19 +585,7 @@ customer['Category'].value_counts()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -712,19 +628,6 @@ customer['Category'].value_counts()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -760,266 +663,6 @@ customer['Category'].value_counts()
   </tbody>
 </table>
 </div>
-
-
-
-
-
-
-<script>
-    require(['echarts'], function(echarts) {
-        
-var myChart_f91f70cde7eb4bcc9c033eaab7e0dadc = echarts.init(document.getElementById('f91f70cde7eb4bcc9c033eaab7e0dadc'), 'light', {renderer: 'canvas'});
-
-var option_f91f70cde7eb4bcc9c033eaab7e0dadc = {
-    "title": [
-        {
-            "text": "Hour-Consumption-Analysis",
-            "left": "auto",
-            "top": "auto",
-            "textStyle": {
-                "fontSize": 18
-            },
-            "subtextStyle": {
-                "fontSize": 12
-            }
-        }
-    ],
-    "toolbox": {
-        "show": true,
-        "orient": "vertical",
-        "left": "95%",
-        "top": "center",
-        "feature": {
-            "saveAsImage": {
-                "show": true,
-                "title": "save as image"
-            },
-            "restore": {
-                "show": true,
-                "title": "restore"
-            },
-            "dataView": {
-                "show": true,
-                "title": "data view"
-            },
-            "magicType": {
-                "show": true,
-                "type": [
-                    "line",
-                    "bar",
-                    "stack",
-                    "tiled"
-                ],
-                "title": {
-                    "line": "\u6298\u7ebf\u56fe",
-                    "bar": "\u67f1\u72b6\u56fe",
-                    "stack": "\u5806\u53e0",
-                    "tiled": "\u5e73\u94fa"
-                }
-            },
-            "dataZoom": {
-                "show": true,
-                "title": {
-                    "zoom": "\u533a\u57df\u7f29\u653e",
-                    "back": "\u7f29\u653e\u8fd8\u539f"
-                }
-            }
-        }
-    },
-    "series_id": 5582474,
-    "tooltip": {
-        "trigger": "item",
-        "triggerOn": "mousemove|click",
-        "axisPointer": {
-            "type": "line"
-        },
-        "textStyle": {
-            "fontSize": 14
-        },
-        "backgroundColor": "rgba(50,50,50,0.7)",
-        "borderColor": "#333",
-        "borderWidth": 0
-    },
-    "series": [
-        {
-            "type": "bar",
-            "data": [
-                280.0,
-                6311.0,
-                16438.0,
-                29518.0,
-                37209.0,
-                53877.0,
-                49125.0,
-                40969.0,
-                33870.0,
-                19199.0,
-                10033.0,
-                2543.0,
-                2671.0,
-                652.0
-            ],
-            "barCategoryGap": "20%",
-            "label": {
-                "normal": {
-                    "show": true,
-                    "position": "top",
-                    "textStyle": {
-                        "fontSize": 12
-                    }
-                },
-                "emphasis": {
-                    "show": true,
-                    "textStyle": {
-                        "fontSize": 12
-                    }
-                }
-            },
-            "markPoint": {
-                "data": []
-            },
-            "markLine": {
-                "data": [
-                    {
-                        "type": "average",
-                        "name": "mean-Value"
-                    }
-                ],
-                "symbolSize": 10
-            },
-            "seriesId": 5582474
-        }
-    ],
-    "legend": [
-        {
-            "data": [
-                ""
-            ],
-            "selectedMode": "multiple",
-            "show": true,
-            "left": "center",
-            "top": "top",
-            "orient": "horizontal",
-            "textStyle": {
-                "fontSize": 12
-            }
-        }
-    ],
-    "animation": true,
-    "xAxis": [
-        {
-            "show": true,
-            "nameLocation": "middle",
-            "nameGap": 25,
-            "nameTextStyle": {
-                "fontSize": 14
-            },
-            "axisTick": {
-                "alignWithLabel": false
-            },
-            "inverse": false,
-            "boundaryGap": true,
-            "type": "category",
-            "splitLine": {
-                "show": false
-            },
-            "axisLine": {
-                "lineStyle": {
-                    "width": 1
-                }
-            },
-            "axisLabel": {
-                "interval": "auto",
-                "rotate": 0,
-                "margin": 8,
-                "textStyle": {
-                    "fontSize": 12
-                }
-            },
-            "data": [
-                7,
-                8,
-                9,
-                10,
-                11,
-                12,
-                13,
-                14,
-                15,
-                16,
-                17,
-                18,
-                19,
-                20
-            ]
-        }
-    ],
-    "yAxis": [
-        {
-            "show": true,
-            "nameLocation": "middle",
-            "nameGap": 25,
-            "nameTextStyle": {
-                "fontSize": 14
-            },
-            "axisTick": {
-                "alignWithLabel": false
-            },
-            "inverse": false,
-            "boundaryGap": true,
-            "type": "value",
-            "splitLine": {
-                "show": true
-            },
-            "axisLine": {
-                "lineStyle": {
-                    "width": 1
-                }
-            },
-            "axisLabel": {
-                "interval": "auto",
-                "formatter": "{value} ",
-                "rotate": 0,
-                "margin": 8,
-                "textStyle": {
-                    "fontSize": 12
-                }
-            }
-        }
-    ],
-    "color": [
-        "#c23531",
-        "#2f4554",
-        "#61a0a8",
-        "#d48265",
-        "#749f83",
-        "#ca8622",
-        "#bda29a",
-        "#6e7074",
-        "#546570",
-        "#c4ccd3",
-        "#f05b72",
-        "#ef5b9c",
-        "#f47920",
-        "#905a3d",
-        "#fab27b",
-        "#2a5caa",
-        "#444693",
-        "#726930",
-        "#b2d235",
-        "#6d8346",
-        "#ac6767",
-        "#1d953f",
-        "#6950a1",
-        "#918597",
-        "#f6f5ec"
-    ]
-};
-myChart_f91f70cde7eb4bcc9c033eaab7e0dadc.setOption(option_f91f70cde7eb4bcc9c033eaab7e0dadc);
-
-    });
-</script>
 
 
 
